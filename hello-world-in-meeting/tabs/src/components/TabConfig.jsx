@@ -20,7 +20,7 @@ class TabConfig extends React.Component {
       pages.config.registerOnSaveHandler((saveEvent) => {
         const baseUrl = `https://${window.location.hostname}:${window.location.port}`;
         pages.config.setConfig({
-          suggestedDisplayName: "My Tab",
+          suggestedDisplayName: "MASQ",
           entityId: "Test",
           contentUrl: baseUrl + "/index.html#/tab",
           websiteUrl: baseUrl + "/index.html#/tab",
