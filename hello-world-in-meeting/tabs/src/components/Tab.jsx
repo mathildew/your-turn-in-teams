@@ -28,10 +28,14 @@ class Tab extends React.Component {
   render() {
     let meetingId = this.state.context['meetingId'] ?? "";
     let userPrincipleName = this.state.context['userPrincipalName'] ?? "";
+    console.log('state is:');
+    console.log(this.state.context);
+    console.log(`props are:`);
+    console.log(this.props);
 
     return (
     <div>
-      <h1>In-meeting app sample</h1>
+      <h1>In-meeting app sample, yoyo5!</h1>
       <h3>Principle Name:</h3>
       <p>{userPrincipleName}</p>
       <h3>Meeting ID:</h3>
